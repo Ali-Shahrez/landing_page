@@ -119,13 +119,13 @@ button:hover {
     justify-content: center;
     align-items: center;
     padding: 40px;
-    gap: 0;
 }
 .quote {
     width: 70%;
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     color: #1F2937;
+    margin-bottom: 10PX;
 }
 .author {
     width: 70%;
@@ -134,5 +134,5 @@ button:hover {
     margin-top: 0;
     font-family: 'Roboto', sans-serif;
     color: #1F2937;
-    align-self: flex-end;
+    text-align: end;
 }
