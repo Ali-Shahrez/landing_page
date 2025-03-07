@@ -136,3 +136,15 @@ button:hover {
     color: #1F2937;
     text-align: end;
 }
+.window {
+    display: flex;  /* Enables Flexbox */
+    justify-content: space-between;  /* Places text on the left, button on the right */
+    align-items: center;  /* Centers items vertically */
+    background-color: #3b82f6;  /* Blue background */
+    padding: 20px 40px;  /* Adds space inside the section */
+    border-radius: 10px;  /* Rounds corners */
+    width: 60%;  /* Makes the section responsive */
+    margin: 0 auto;  /* Centers the section */
+    color: white;  /* Text color */
+    margin: 80px auto;
+}
