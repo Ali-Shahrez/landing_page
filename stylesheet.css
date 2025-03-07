@@ -144,7 +144,29 @@ button:hover {
     padding: 20px 40px;  /* Adds space inside the section */
     border-radius: 10px;  /* Rounds corners */
     width: 60%;  /* Makes the section responsive */
-    margin: 0 auto;  /* Centers the section */
     color: white;  /* Text color */
     margin: 80px auto;
+}
+.cta-text {
+    display: flex;
+    flex-direction: column;
+}
+.cta-text h2 {
+    margin-bottom: 0;
+}
+.cta {
+    margin-top: 0;
+}
+.cta-button {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.cta-button:hover {
+    background: white;
+    color: #3b82f6;
 }
