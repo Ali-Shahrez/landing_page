@@ -170,3 +170,10 @@ button:hover {
     background: white;
     color: #3b82f6;
 }
+footer {
+    background-color: #1F2937;
+    color: white; /* White text */
+    text-align: center; /* Center text */
+    padding: 20px 0; /* Space above and below */
+    font-size: 14px; /* Adjust font size */
+}
